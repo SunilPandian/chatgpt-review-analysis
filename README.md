@@ -121,3 +121,83 @@ The project includes:
 ---
 
 ## 📂 Project Structure
+
+chatgpt-review-analysis/
+│
+├── data/
+│ └── chatgpt_reviews.csv
+│
+├── notebook/
+│ └── analysis.ipynb
+│
+├── visuals/
+│ ├── rating_distribution.png
+│ ├── sentiment_distribution.png
+│ ├── wordcloud.png
+│
+├── README.md
+
+---
+
+## ▶️ How to Run
+
+1. Clone the repository:
+
+git clone https://github.com/yourusername/chatgpt-review-analysis.git
+
+---
+
+2. Install dependencies:
+
+pip install pandas numpy matplotlib nltk textblob wordcloud
+
+3. Run the notebook:
+
+jupyter notebook
+
+---
+
+## 📹 Project Demonstration
+
+This project was demonstrated by explaining the complete workflow, including:
+
+- Problem statement and objectives
+- Data understanding and preprocessing steps
+- Exploratory Data Analysis (EDA)
+- Sentiment analysis using NLP techniques
+- Keyword extraction and visualization
+- Key insights and conclusions
+
+The demonstration focused on clearly communicating how raw textual data can be transformed into meaningful business insights using data analysis and NLP methods.
+
+---
+
+## 📌 Conclusion
+
+This project successfully analyzes ChatGPT user reviews to uncover sentiment patterns and user feedback trends.
+
+Key takeaways:
+
+- Majority of users show **positive sentiment**, indicating overall satisfaction
+- Strong alignment between **ratings and sentiment polarity**
+- Most reviews are **subjective**, reflecting user opinions
+- Frequently mentioned words like *helpful*, *easy*, and *fast* highlight key strengths
+- Some negative feedback points to **accuracy-related concerns**
+
+Overall, this project demonstrates how Natural Language Processing (NLP) can be used to extract actionable insights from unstructured text data.
+
+---
+
+## 🔮 Future Improvements
+
+- Implement advanced NLP models such as **BERT** or **Transformers**
+- Perform **aspect-based sentiment analysis** for deeper insights
+- Build an **interactive dashboard** using Power BI or Tableau
+- Automate real-time sentiment analysis pipeline
+
+---
+
+## 🙌 Author
+
+Sunil Pandian. J
+
